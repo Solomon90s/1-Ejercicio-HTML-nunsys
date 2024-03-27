@@ -1,0 +1,47 @@
+* {
+    /*
+    Para restaurar los estilos por defecto del navegador
+    */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  margin-top: 50px;
+}
+
+.padre {
+  padding: 25px;
+  width: 20%;
+  float: left;
+  background-color: #ffffffaa;
+  border-radius: 10px;
+  margin-left: 40px;
+  overflow: hidden;
+}
+
+.time {
+  font-style: oblique;
+}
+.titulo {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 20px;
+  font-size: xx-large;
+  font-weight: normal;
+}
+.imagen {
+  width: 100%;
+  height: 125px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+.imagen2 {
+    width: 100%;
+    height: 250px;
+    margin-top: 25px;
+  }
+
+
+
